@@ -10,12 +10,12 @@ import Doors from "../components/structured/Doors";
 import Cabling from "../components/structured/Cabling";
 import ProjectFooter from "../components/structured/ProjectFooter";
 import StructuredForm from "../components/structured/StructuredForm";
-import SEO from "../elements/SEO";
+// import SEO from "../elements/SEO";
 
 const Services = () => (
   <React.Fragment>
     <Layout>
-      <SEO title="MACE KS" />
+      {/*<SEO title="MACE KS" />*/}
       <Header />
       <Hero />
       <StructuredForm />

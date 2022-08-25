@@ -6,12 +6,12 @@ import Header from "../../elements/navigation/Header";
 import Hero from "../../components/security/reviews/Hero";
 import ReviewSection from "../../components/security/reviews/ReviewSection";
 import ProjectFooter from "../../components/security/reviews/ProjectFooter";
-import SEO from "../../elements/SEO";
+// import SEO from "../../elements/SEO";
 
 const Reviews = () => (
   <React.Fragment>
     <Layout>
-      <SEO title="Reviews" />
+      {/*<SEO title="Reviews" />*/}
       <Header />
       <Hero />
       <ReviewSection />

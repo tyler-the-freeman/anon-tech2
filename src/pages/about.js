@@ -6,12 +6,12 @@ import Header from "../elements/navigation/Header";
 import Hero from "../components/about/Hero";
 import ProjectFooter from "../components/about/ProjectFooter";
 import Team from "../components/about/Team";
-import SEO from "../elements/SEO";
+// import SEO from "../elements/SEO";
 
 const About = () => (
   <React.Fragment>
     <Layout>
-      <SEO title="About" />
+      {/*<SEO title="About" />*/}
       <Header />
       <Hero />
       <Team />

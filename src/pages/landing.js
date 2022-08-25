@@ -7,12 +7,12 @@ import SectionOne from "../components/landing/SectionOne";
 import SectionTwo from "../components/landing/SectionTwo";
 import SectionThree from "../components/landing/SectionThree";
 import ContactFooter from "../components/landing/ContactFooter";
-import SEO from "../elements/SEO";
+// import SEO from "../elements/SEO";
 
 const Index = () => {
   return (
     <Layout>
-      <SEO title="Landing" />
+      {/*<SEO title="Landing" />*/}
       <Header />
       <Hero />
       <SectionOne />

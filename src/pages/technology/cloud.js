@@ -9,12 +9,12 @@ import Integrate from "../../components/technology/cloud/Integrate";
 import CloudServices from "../../components/technology/cloud/CloudServices";
 import HostedVoip from "../../components/technology/cloud/HostedVoip";
 import ProjectFooter from "../../components/technology/cloud/ProjectFooter";
-import SEO from "../../elements/SEO";
+// import SEO from "../../elements/SEO";
 
 const Cloud = () => (
   <React.Fragment>
     <Layout>
-      <SEO title="Cloud" />
+      {/*<SEO title="Cloud" />*/}
       <Header />
       <Hero />
       <NavSection />

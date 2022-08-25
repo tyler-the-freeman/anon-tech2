@@ -7,7 +7,7 @@ import SectionOne from "../components/home/SectionOne";
 import SectionTwo from "../components/home/SectionTwo";
 import SectionThree from "../components/home/SectionThree";
 import ContactFooter from "../components/home/ContactFooter";
-import SEO from "../elements/SEO";
+// import SEO from "../elements/SEO";
 
 import logoblack from "../images/logos/SPT-Logo-Black.png";
 import logowhite from "../images/logos/SPT-Logo-White.png";
@@ -15,7 +15,7 @@ import logowhite from "../images/logos/SPT-Logo-White.png";
 const Index = () => {
   return (
     <Layout>
-      <SEO title="Home" />
+      {/* <SEO title="Home" /> */}
       <Header />
       <div
         style={{

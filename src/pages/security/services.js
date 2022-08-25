@@ -9,12 +9,12 @@ import Cameras from "../../components/security/services/Cameras";
 import Doors from "../../components/security/services/Doors";
 import Cabling from "../../components/security/services/Cabling";
 import ProjectFooter from "../../components/security/services/ProjectFooter";
-import SEO from "../../elements/SEO";
+// import SEO from "../../elements/SEO";
 
 const Services = () => (
   <React.Fragment>
     <Layout>
-      <SEO title="Services" />
+      {/*<SEO title="Services" />*/}
       <Header />
       <Hero />
       <NavSection />

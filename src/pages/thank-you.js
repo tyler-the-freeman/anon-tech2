@@ -4,13 +4,13 @@ import * as React from "react";
 import Layout from "../elements/wireframes/Layout";
 import Header from "../elements/navigation/Header";
 import Hero from "../components/thank-you/Hero";
-import SEO from "../elements/SEO";
+// import SEO from "../elements/SEO";
 
 const ThankYou = () => {
   return (
     <React.Fragment>
       <Layout>
-        <SEO title="Thank You!" />
+        {/*<SEO title="Thank You!" />*/}
         <Header />
         <Hero id="footer" />
       </Layout>
