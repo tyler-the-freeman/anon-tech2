@@ -1,13 +1,7 @@
-# Quick Start
+# Run Live Dev Server
 
-### Install Packages
-`npm install`
+### Build the Image
+`docker build -t [image name] .`
 
-### Run Live Dev Server
-`npm start`
-
-### Build Production
-`npm run build`
-
-### Notes
-*ignore the errors I don't wanna talk about it*
+### Run the Container
+`docker run [image name]`
