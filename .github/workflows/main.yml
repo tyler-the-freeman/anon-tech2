@@ -32,3 +32,12 @@ jobs:
         - name: Setup kubectl
           id: install-kubectl
           uses: azure/setup-kubectl@v3
+        - name: Deploy to AKS
+          id: deploy-aks
+          uses: Azure/k8s-deploy@v4
+          with:
+            namespace: 'default'
+            manifests: |
+              redis.yaml
+            images: '${{ secrets.registry }}.azurecr.io/anon-tech:${{ github.sha }}'
+            pull: false 
