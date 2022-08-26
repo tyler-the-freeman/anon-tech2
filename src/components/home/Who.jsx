@@ -65,7 +65,7 @@ function Who() {
     }}>
       <div>
         <Themed.h1>
-          WHO WE ARE
+          WHO ARE WE?
         </Themed.h1>
         {/* desktop-underline */}
         <div
