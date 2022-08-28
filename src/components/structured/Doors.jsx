@@ -166,7 +166,7 @@ function Doors() {
         </LineDiv>
         </Title>
         <Themed.p>
-        Smart Pro Technologies is here to provide you with safety, protection and convenience for any project. We offer a comprehensive line of door controls and security to meet nearly any need. Our exceptional service and professional staff are here to ensure your environment is secure and you are trained on your equipment. Our teams can work in new or existing environments and create solutions that connect you to your building with any device anywhere.
+        This is a live update
         </Themed.p>
         {/* <Link
         to='/about'>
