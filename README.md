@@ -1,4 +1,4 @@
-Personal project to test hosting tools.
+Personal project to test hosting tools, configured with a pipeline to Azure Kubernetes using GitHub Actions.
 
 # Run Live Dev Server
 
