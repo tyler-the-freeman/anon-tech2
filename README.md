@@ -7,3 +7,5 @@ Personal project to test hosting tools, configured with a pipeline to Azure Kube
 
 ### Run the Container
 `docker run [image name]`
+
+Accessible on port 8000 when run via container.
