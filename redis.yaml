@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: anon-tech
-        image: ""
+        image: anontechacr.azurecr.io/anon-tech:${{ github.sha }}
         ports:
         - containerPort: 8000
 ---
