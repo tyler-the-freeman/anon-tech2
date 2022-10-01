@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: anon-tech
-        image: anontechacr.azurecr.io/anon-tech
+        image: ${{ env.registry }}.azurecr.io/anon-tech
         ports:
         - containerPort: 8000
 ---
